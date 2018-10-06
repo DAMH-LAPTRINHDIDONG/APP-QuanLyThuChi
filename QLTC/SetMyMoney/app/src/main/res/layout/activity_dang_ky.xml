@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKyActivity">
+
+    <TextView
+        android:id="@+id/dangky2"
+        android:layout_width="121dp"
+        android:layout_height="24dp"
+        android:layout_centerInParent="true"
+        android:text="Quên mật khảu?"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_marginTop="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/email" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="339dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#6cb3b0b0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="238dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="107dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2" />
+
+    <!--<ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="53dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_marginStart="32dp"
+        app:srcCompat="@drawable/email" />-->
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="114dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lock" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="343dp"
+        android:layout_height="54dp"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:background="#6cb3b0b0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="239dp"
+        android:layout_height="58dp"
+        android:layout_alignEnd="@+id/view3"
+        android:layout_alignTop="@+id/view3"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:background="#0099FF"
+        android:outlineAmbientShadowColor="#FFFF"
+        android:text="Đăng Ký"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.051" />
+
+</RelativeLayout>
