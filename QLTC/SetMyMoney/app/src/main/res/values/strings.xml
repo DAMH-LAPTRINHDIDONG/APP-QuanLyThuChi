@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SetMyMoney</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_tongquan">Tổng quan</string>
+    <string name="nav_acc">Tài khoản</string>
+    <string name="nav_them">Lập phiếu</string>
+    <string name="nav_more">Khác</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
