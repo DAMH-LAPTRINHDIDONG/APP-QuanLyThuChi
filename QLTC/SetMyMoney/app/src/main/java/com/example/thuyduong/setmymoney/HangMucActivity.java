@@ -1,5 +1,6 @@
 package com.example.thuyduong.setmymoney;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ExpandableListView;
@@ -21,6 +22,18 @@ public class HangMucActivity extends AppCompatActivity {
         addControl();
         customExpandleListView = new CustomExpandleListView(HangMucActivity.this,listdataheader,listdatachild);
         expandableListView.setAdapter(customExpandleListView);
+
+        /*ActionBar actionBar = getSupportActionBar();
+
+        actionBar.setTitle("Chọn hạng mục");
+        String title = actionBar.getTitle().toString();
+        actionBar.show();
+
+
+        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.setLogo(R.drawable.backspace_white_24dp);
+        actionBar.setDisplayUseLogoEnabled(true);*/
+
     }
 
     private void addControl() {
