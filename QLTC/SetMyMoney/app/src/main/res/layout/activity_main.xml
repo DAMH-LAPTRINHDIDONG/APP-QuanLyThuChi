@@ -40,20 +40,20 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="43dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="5dp"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/email" />
 
     <View
         android:id="@+id/view3"
-        android:layout_width="300dp"
+        android:layout_width="339dp"
         android:layout_height="57dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="8dp"
@@ -65,10 +65,10 @@
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="240dp"
+        android:layout_width="244dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="96dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -86,20 +86,20 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="40dp"
-        android:layout_height="35dp"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
         android:layout_marginBottom="12dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/lock" />
 
     <View
         android:id="@+id/view2"
-        android:layout_width="300dp"
+        android:layout_width="343dp"
         android:layout_height="54dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="8dp"
@@ -111,7 +111,7 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="240dp"
+        android:layout_width="244dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:ems="10"
@@ -122,7 +122,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="300dp"
+        android:layout_width="343dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"

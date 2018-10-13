@@ -11,7 +11,7 @@
         android:layout_width="121dp"
         android:layout_height="24dp"
         android:layout_centerInParent="true"
-        android:text="Quên mật khẩu?"
+        android:text="Quên mật khảu?"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
@@ -19,11 +19,11 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="43dp"
-        android:layout_height="35dp"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/view3"
-        android:layout_marginTop="32dp"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_marginTop="27dp"
         app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.083"
@@ -32,12 +32,10 @@
 
     <View
         android:id="@+id/view3"
-        android:layout_width="300dp"
+        android:layout_width="339dp"
         android:layout_height="57dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="20dp"
         android:background="#6cb3b0b0"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,11 +66,12 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="43dp"
-        android:layout_height="35dp"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/imageView3"
-        android:layout_marginTop="119dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="114dp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.083"
@@ -81,12 +80,10 @@
 
     <View
         android:id="@+id/view2"
-        android:layout_width="300dp"
+        android:layout_width="343dp"
         android:layout_height="54dp"
         android:layout_alignTop="@+id/editText4"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginLeft="8dp"
         android:background="#6cb3b0b0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +103,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="300dp"
+        android:layout_width="343dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -123,25 +120,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2"
         app:layout_constraintVertical_bias="0.051" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="219dp"
-        android:layout_marginStart="62dp"
-        android:text="Đã có tài khoản?" />
-
-    <TextView
-        android:textColor="#0099FF"
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView"
-        android:layout_marginEnd="81dp"
-        android:text="Đăng nhập" />
 
 </RelativeLayout>
