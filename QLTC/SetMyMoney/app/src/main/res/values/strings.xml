@@ -1,11 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SetMyMoney</string>
-    <string name="nav_home">Home</string>
-    <string name="nav_tongquan">Tổng quan</string>
-    <string name="nav_acc">Tài khoản</string>
-    <string name="nav_them">Lập phiếu</string>
-    <string name="nav_more">Khác</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">setmymoney</string>
+    <string-array name="list_name">
+        <item>arrowsicon</item>
+        <item>boxdata</item>
+        <item>email</item>
+        <item>face</item>
+        <item>gg</item>
+        <item>heo</item>
+        <item>lock</item>
+        <item>notesicon</item>
+        <item>purse</item>
+        <item>simpline</item>
+        <item>payment</item>
+    </string-array>
 </resources>

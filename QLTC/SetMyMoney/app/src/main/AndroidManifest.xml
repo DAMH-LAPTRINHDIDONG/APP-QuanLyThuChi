@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.thuyduong.setmymoney">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoaiTaiKhoanActivity">
+        <activity android:name=".ThemhangmucchiActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,9 +18,10 @@
         </activity>
         <activity android:name=".DangKyActivity" />
         <activity android:name=".MainActivity" />
-         <activity android:name=".HangMucActivity" />
-        <!-- <activity android:name=".TaiKhoanActivity"></activity> -->
-        <!--<activity android:name=".LoaiTaiKhoanActivity"></activity>-->
+        <activity android:name=".ChoniconActivity" />
+        <activity android:name=".ThemtaikhoanActivity"/>
+        <activity android:name=".IconActivity">
+        </activity>
     </application>
 
 </manifest>
