@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKy">
+
+    <TextView
+        android:id="@+id/dangky2"
+        android:layout_width="121dp"
+        android:layout_height="24dp"
+        android:layout_centerInParent="true"
+        android:text="Quên mật khẩu?"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/view3"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/email" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:background="#6cb3b0b0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="238dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="107dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2" />
+
+    <!--<ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="53dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_marginStart="32dp"
+        app:srcCompat="@drawable/email" />-->
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginTop="119dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lock" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="8dp"
+        android:background="#6cb3b0b0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="239dp"
+        android:layout_height="58dp"
+        android:layout_alignEnd="@+id/view3"
+        android:layout_alignTop="@+id/view3"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:background="#0099FF"
+        android:text="Đăng Ký"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="219dp"
+        android:layout_marginStart="62dp"
+        android:text="Đã có tài khoản?" />
+
+    <TextView
+        android:textColor="#0099FF"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginEnd="81dp"
+        android:text="Đăng nhập" />
+
+</RelativeLayout>

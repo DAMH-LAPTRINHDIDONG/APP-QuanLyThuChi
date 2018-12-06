@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "796277220044",
+    "firebase_url": "https://qlthuchi-54680.firebaseio.com",
+    "project_id": "qlthuchi-54680",
+    "storage_bucket": "qlthuchi-54680.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796277220044:android:76f1e1fb793d2e66",
+        "android_client_info": {
+          "package_name": "com.example.thanhkhoa.savemoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796277220044-vjauktmpnamgba1h86mauh3to932al00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thanhkhoa.savemoney",
+            "certificate_hash": "a2c6433c57e6ef3bbf323c64a2bf1a28ab9e6127"
+          }
+        },
+        {
+          "client_id": "796277220044-hqli8hvgig0hun4ufgemtjbkfr60cn8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Kc2A_Bm4oMV3JhePAgdJi88TQtc0msA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796277220044-hqli8hvgig0hun4ufgemtjbkfr60cn8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

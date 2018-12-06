@@ -1,0 +1,17 @@
+﻿- Để sử dụng phần mềm cần cài các ứng dụng sau đây
+ + SQL Server
+ + Android Studio
+ + XAMPP
+ + Visual Studio
+- Để sử dụng các phần mềm cần khởi tạo cở sở dữ liệu bằng file qltc.sql
+trong folder RESOURCE
+
+- Để sử dụng ứng dụng App điện thoại :
+ + B1 : Khởi chạy ứng dụng XAMPP
+ + B2 : Cấu hình cho ứng dụng XAMPP vì có thể xung đột port có sẵn
+ + B3 : Vào trang Admin của MySQL Attach file qltc.sql
+ + B4 : Khởi chạy Android Studio
+ + B5 : Chọn open project folder được giải nén ở B1
+ + B6 : Kiểm tra IP của máy
+ + B7 : Vào class KetNoi trong Android thây đoạn IP được viết trong đó bằng IP của máy hiện tại
+ + B8 : Chạy ứng dụng
